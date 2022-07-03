@@ -88,6 +88,7 @@ Get all roles from DB and construct roles choice.
 Once any action is performed expect quit is performed to loop back to the start.
 
 Built with:
+===========
 
 - MySQL
 - Express.js
