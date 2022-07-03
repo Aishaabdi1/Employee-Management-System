@@ -85,4 +85,12 @@ Get all roles from DB and construct roles choice.
 - Role 3
 (Take answers and store database)
 
-Once any action is performed loop expect quit is performed loop back to the start.
+Once any action is performed expect quit is performed to loop back to the start.
+
+Built with:
+
+- MySQL
+- Express.js
+- Node.js
+- npmjs
+- inquirer
