@@ -20,15 +20,15 @@ VALUES
 (7, "Accountant", 100000, 4);
 
 -- EMPLOYEE SEEDS -- 
-INSERT INTO employee (id, first_name, last_name, roles_id, manager_id)
+INSERT INTO employees (id, first_name, last_name, roles_id, manager_id)
 VALUES 
 (1, 'Aisha', 'Abdi', '1', '1')
 (2, 'Amina', 'Hayat', '2', '2')
 (3, 'Anfal', 'Ali'. '3', '3')
 (4, 'Idil', 'Osman', '4', '4')
 (5, 'Jayad', 'Arshad', '5', '5')
-(6, 'Angela', 'Smith', '6', '6')
-(7, 'Mohammed', 'Hassan', '7', '7');
+(6, 'Angela', 'Smith', '1', '1')
+(7, 'Mohammed', 'Hassan', '2', '2');
 
 
 
