@@ -4,14 +4,20 @@ USE employeetracker_DB;
 INSERT INTO department (department_name, roles_id)
 VALUES 
 ('Engineering', 1)
-('Quality Control', 2)
-('Project Management', 3),
-('Marketing', 4),
-('Design', 5),
-('Law', 6),
-('Finance', 7);
+('Marketing', 2),
+('Design', 3),
+('Finance', 4);
 
-
+-- EMPLOYEE ROLE SEEDS -- 
+INSERT INTO roles (title, salary, department_id)
+VALUES
+(1, "Senior engineer", 200000, 1)
+(2, "Junior engineer", 100000, 1)
+(3, "Project manager", 300000, 1)
+(4, "Social media manager", 100000, 2)
+(5, "UX designer", 200000, 3)
+(6, "UI designer", 200000, 3)
+(7, "Accountant", 100000, 4);
 
 -- EMPLOYEE SEEDS -- 
 INSERT INTO employee (id, first_name, last_name, roles_id, manager_id)
@@ -23,17 +29,6 @@ VALUES
 (5, 'Jayad', 'Arshad', '5', '5')
 (6, 'Angela', 'Smith', '6', '6')
 (7, 'Mohammed', 'Hassan', '7', '7');
-
--- EMPLOYEE ROLE SEEDS -- 
-INSERT INTO roles (title, salary, department_id)
-VALUES
-("Senior engineer", 200000, 1)
-("Quality controller", 100000, 2)
-("Project manager", 300000, 3)
-("Social media", 100000, 4)
-("UX designer", 200000, 5)
-("Lawyer", 200000, 6)
-("Accountant", 100000);
 
 
 
